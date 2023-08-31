@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 
@@ -7,7 +6,7 @@ import pandas as pd
 st.write("""Student Roll no. & Name: 22ds3000145, S.A.Sharmili Srinath""")
 st.write("\n")
 st.title(":blue[Find the Greatest number]")
-st.write("""This App predicts the Greatest number out of three numbers""")
+st.write("""*(This App predicts the Greatest number out of three numbers)*""")
 
 st.subheader('Enter any three numbers!')
 primary_color = "#00f900"
