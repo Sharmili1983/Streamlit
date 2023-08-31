@@ -11,14 +11,17 @@ def user_input_features():
   No1 = st.number_input("Number1: ")
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
+
+  No1 = '<p style="font-family:Courier; color:Yellow; font-size: 20px;">Greatest number is : </p>'
   if (No1>No2 and No1>No3):
-    No1 = '<p style="font-family:Courier; color:Yellow; font-size: 20px;">**Greatest number is : **</p>'
-    st.write(No1)
+    st.write(**No1**)
     #st.write(":primary_color[Greatest number is ]", No1)
   elif (No2>No1 and No2>No3):
-     st.write("**:Yellow[Greatest number is ]**", No2)
+     st.write(**No2**)
+     #st.write("**:Yellow[Greatest number is ]**", No2)
   elif (No3>No1 and No3>No2):
-     st.write(":Yellow[Greatest number is ]", No3)
+     st.write(No3)
+     #st.write(":Yellow[Greatest number is ]", No3)
 
   data = {'Number1': No1,
           'Number2': No2,
