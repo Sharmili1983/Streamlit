@@ -24,7 +24,7 @@ def user_input_features():
      st.write(No2)
      #st.write("**:Yellow[Greatest number is ]**", No2)
   elif (No3>No1 and No3>No2):
-     st.write(f"*{No1}*")
+     st.write(f"*{No3}*")
      #st.write(":Yellow[Greatest number is ]", No3)
 
   data = {'Number1': No1,
