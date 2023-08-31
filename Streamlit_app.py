@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-st.title(":blue[Find the Greatest number]")
-st.write("""This App predicts the Greatest number out of three numbers""")
+_, col2, _ = st.beta_columns([1, 2, 1])
+with col2:
+  st.title(":blue[Find the Greatest number]")
+  st.write("""This App predicts the Greatest number out of three numbers""")
 
 st.subheader('Enter any three numbers!')
 primary_color = "#00f900"
@@ -35,5 +37,7 @@ def user_input_features():
 
 data = user_input_features()
 
+st.text(" ")
+st.text(" ")
 st.subheader('User Input parameters')
 st.write(data.to_dict())
