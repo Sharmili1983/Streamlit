@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 
-_, col2, _ = st.beta_columns([1, 2, 1])
-with col2:
-  st.title(":blue[Find the Greatest number]")
-  st.write("""This App predicts the Greatest number out of three numbers""")
+#_, col2, _ = st.beta_columns([1, 2, 1])
+#with col2:
+st.title(":blue[Find the Greatest number]")
+st.write("""This App predicts the Greatest number out of three numbers""")
 
 st.subheader('Enter any three numbers!')
 primary_color = "#00f900"
@@ -18,7 +18,7 @@ def user_input_features():
   st.markdown(GNO, unsafe_allow_html=True)
   
   if (No1>No2 and No1>No3):
-    st.write(f"**{No1}**")
+    st.write(:blue[f"**{No1}**"])
     #st.write(":primary_color[Greatest number is ]", No1)
   elif (No2>No1 and No2>No3):
      st.write(No2)
