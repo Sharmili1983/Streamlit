@@ -16,7 +16,7 @@ def user_input_features():
   elif (No2>No1 and No2>No3):
      st.subheader("_:yellow[Greatest number is ]_"), st.write(No2)
   elif (No3>No1 and No3>No2):
-  st.subheader("_:yellow[Greatest number is ]_"), st.write(No3)
+     st.subheader("_:yellow[Greatest number is ]_"), st.write(No3)
 
   data = {'Number1': No1,
           'Number2': No2,
