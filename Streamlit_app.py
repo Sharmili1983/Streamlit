@@ -16,7 +16,7 @@ def user_input_features():
   st.markdown(GNO, unsafe_allow_html=True)
   
   if (No1>No2 and No1>No3):
-    st.write(No1)
+    st.write(f"**{No1}**")
     #st.write(":primary_color[Greatest number is ]", No1)
   elif (No2>No1 and No2>No3):
      st.write(No2)
