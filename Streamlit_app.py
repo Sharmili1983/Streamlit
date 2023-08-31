@@ -12,11 +12,11 @@ def user_input_features():
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
   if (No1>No2 and No1>No3):
-    st.caption("_:red[Greatest number is ]_"), st.write(No1)
+    st.subheader("_:yellow[Greatest number is ]_"), st.write(No1)
   elif (No2>No1 and No2>No3):
-    st.caption(":blue[_Greatest number is _]"), st.write(No2)
+     st.subheader("_:yellow[Greatest number is ]_"), st.write(No2)
   elif (No3>No1 and No3>No2):
-    st.caption(":blue[_Greatest number is _]"), st.write(No3)
+  st.subheader("_:yellow[Greatest number is ]_"), st.write(No3)
 
   data = {'Number1': No1,
           'Number2': No2,
