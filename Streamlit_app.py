@@ -12,8 +12,8 @@ def user_input_features():
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
   if (No1>No2 and No1>No3):
-    No1 = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Greatest number is </p>'
-    st.markdown(No1, unsafe_allow_html=True)
+    No1 = '<p style="font-family:Courier; color:Yellow; font-size: 20px;">Greatest number is </p>'
+    st.write(No1, unsafe_allow_html=True)
     #st.write(":primary_color[Greatest number is ]", No1)
   elif (No2>No1 and No2>No3):
      st.write("_:primary_color[Greatest number is ]_", No2)
