@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title(":#00f900[Find the Greatest number]")
+st.title(":Yellow[Find the Greatest number]")
 st.write("""This App predicts the Greatest number out of three numbers""")
 
 st.subheader('Enter any three numbers!')
@@ -11,11 +11,11 @@ def user_input_features():
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
   if (No1>No2 and No1>No3):
-    st.write("_:yellow[Greatest number is ]_", No1)
+    st.write("_:Yellow[Greatest number is ]_", No1)
   elif (No2>No1 and No2>No3):
-     st.writw("_:yellow[Greatest number is ]_", No2)
+     st.writw("_:Yellow[Greatest number is ]_", No2)
   elif (No3>No1 and No3>No2):
-     st.subheader("_:yellow[Greatest number is ]_", No3)
+     st.subheader("_:Yellow[Greatest number is ]_", No3)
 
   data = {'Number1': No1,
           'Number2': No2,
