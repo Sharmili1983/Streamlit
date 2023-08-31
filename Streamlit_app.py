@@ -6,7 +6,6 @@ import pandas as pd
 #with col2:
 st.write("""Student Roll no. & Name: 22ds3000145, S.A.Sharmili Srinath""")
 st.write("\n")
-st.write("\n")
 st.title(":blue[Find the Greatest number]")
 st.write("""This App predicts the Greatest number out of three numbers""")
 
@@ -43,7 +42,6 @@ def user_input_features():
 
 data = user_input_features()
 
-st.write("\n")
 st.write("\n")
 st.subheader('User Input parameters')
 st.write(data.to_dict())
