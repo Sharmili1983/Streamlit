@@ -12,7 +12,9 @@ def user_input_features():
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
 
-  No1 = '<p style="font-family:Courier; color:Yellow; font-size: 20px;">Greatest number is : </p>'
+  GNO = '<p style="font-family:Courier; color:Yellow; font-size: 30px;">Greatest number is : </p>'
+  st.markdown(GNO, unsafe_allow_html=True)
+  
   if (No1>No2 and No1>No3):
     st.write(No1)
     #st.write(":primary_color[Greatest number is ]", No1)
