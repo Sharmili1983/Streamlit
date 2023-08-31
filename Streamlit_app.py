@@ -8,7 +8,7 @@ st.write("""This App predicts the Greatest number out of three numbers""")
 st.subheader('Enter any three numbers!')
 
 def user_input_features():
-  No1 = st.number_input("Number1: ", value = int)
+  No1 = st.number_input("Number1: ")
   No2 = st.number_input("Number2: ")
   No3 = st.number_input("Number3: ")
   if (No1>No2 and No1>No3):
