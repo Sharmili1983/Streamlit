@@ -9,8 +9,6 @@ st.write("\n")
 st.title(":blue[Find the Greatest number]")
 st.write("""This App predicts the Greatest number out of three numbers""")
 
-
-
 st.subheader('Enter any three numbers!')
 primary_color = "#00f900"
 
